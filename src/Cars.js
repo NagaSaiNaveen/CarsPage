@@ -8,19 +8,29 @@ function Cars() {
   return (
     <>
       <div className='con1'>
-          <Link to={"/About"}>        
+          <Link to={"/About"} className='ru'>        
             <div className='con2'>
-              
+              <h2>BUGATTI</h2>
             </div>
           </Link>
-          <Link to={"/Home"}>
-            <div className='con2'>
-            
+          <Link to={"/Home"} className='ru'>
+            <div className='con3'>
+              <h2>NISSAN</h2>
             </div>
           </Link>
-          <Link to={"/Home"}>
-            <div className='con2'>
-            
+          <Link to={"/Home"} className='ru'>
+            <div className='con4'>
+              <h2>THAR</h2>
+            </div>
+          </Link>
+          <Link to={"/Home"} className='ru'>
+            <div className='con4'>
+              <h2>THAR</h2>
+            </div>
+          </Link>
+          <Link to={"/Home"} className='ru'>
+            <div className='con4'>
+              <h2>THAR</h2>
             </div>
           </Link>
       </div>
